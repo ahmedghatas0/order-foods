@@ -96,7 +96,7 @@
                                         $current_id = $row['id'];
                                         ?>
                             <option <?php if($current_category == $current_id) { echo "selected"; } ?>
-                             value="<?php echo $current_id; ?>"><?php echo $current_title; ?></option>
+                                value="<?php echo $current_id; ?>"><?php echo $current_title; ?></option>
                             <?php
                                     }
                                 } else {
